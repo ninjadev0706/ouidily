@@ -1,4 +1,5 @@
 import { useMediaQuery } from "react-responsive";
+import { DeliverIcon, CalendarIcon, SaveIcon, SubscribeIcon, WomanIcon } from "./SvgIcon";
 
 const Benefit = () => {
   const isDesktopOrLaptop = useMediaQuery({
@@ -21,9 +22,7 @@ const Benefit = () => {
                   <div className="col-lg-4">
                     <div className="inner-box max-w-200 m-auto">
                       <div className="icon-box" data-aos="zoom-in" data-aos-duration="2000">
-                        <span className="icon">
-                          <img src="/img/calendar.png" alt="" />
-                        </span>
+                        <CalendarIcon />
                       </div>
                       <h6 className="font-spirit">2. Schedule</h6>
                       <div className="text text-left">
@@ -34,9 +33,7 @@ const Benefit = () => {
                   <div className="col-lg-4">
                     <div className="inner-box max-w-200 m-auto">
                       <div className="icon-box" data-aos="zoom-in" data-aos-duration="2000">
-                        <span className="icon">
-                          <img src="/img/bicycle.png" alt="" />
-                        </span>
+                        <DeliverIcon />
                       </div>
                       <h6 className="font-spirit">4. Delivery</h6>
                       <div className="text text-left">
@@ -49,9 +46,7 @@ const Benefit = () => {
                   <div className="col-lg-4">
                     <div className="inner-box max-w-200 m-auto">
                       <div className="icon-box" data-aos="zoom-in" data-aos-duration="2000">
-                        <span className="icon">
-                          <img src="/img/woman.png" alt="" />
-                        </span>
+                        <WomanIcon />
                       </div>
                       <h6 className="font-spirit">1. Customize</h6>
                       <div className="text text-left">
@@ -62,9 +57,7 @@ const Benefit = () => {
                   <div className="col-lg-4">
                     <div className="inner-box max-w-200 m-auto">
                       <div className="icon-box" data-aos="zoom-in" data-aos-duration="2000">
-                        <span className="icon">
-                          <img src="/img/milk.png" alt="" />
-                        </span>
+                        <SubscribeIcon />
                       </div>
                       <h6 className="font-spirit">3. Subscribe</h6>
                       <div className="text text-left">
@@ -75,9 +68,7 @@ const Benefit = () => {
                   <div className="col-lg-4">
                     <div className="inner-box max-w-200 m-auto">
                       <div className="icon-box" data-aos="zoom-in" data-aos-duration="2000">
-                        <span className="icon">
-                          <img src="/img/bank.png" alt="" />
-                        </span>
+                        <SaveIcon />
                       </div>
                       <h6 className="font-spirit">5. Savings</h6>
                       <div className="text text-left">
@@ -89,14 +80,11 @@ const Benefit = () => {
               </>
               :
               <>
-
                 <div className="row">
                   <div className="col-lg-4">
                     <div className="inner-box max-w-200 m-auto">
                       <div className="icon-box" data-aos="zoom-in" data-aos-duration="2000">
-                        <span className="icon">
-                          <img src="/img/woman.png" alt="" />
-                        </span>
+                        <WomanIcon />
                       </div>
                       <h6 className="font-spirit">1. Customize</h6>
                       <div className="text text-left">
@@ -107,9 +95,7 @@ const Benefit = () => {
                   <div className="col-lg-4">
                     <div className="inner-box max-w-200 m-auto">
                       <div className="icon-box" data-aos="zoom-in" data-aos-duration="2000">
-                        <span className="icon">
-                          <img src="/img/calendar.png" alt="" />
-                        </span>
+                        <CalendarIcon />
                       </div>
                       <h6 className="font-spirit">2. Schedule</h6>
                       <div className="text text-left">
@@ -120,9 +106,7 @@ const Benefit = () => {
                   <div className="col-lg-4">
                     <div className="inner-box max-w-200 m-auto">
                       <div className="icon-box" data-aos="zoom-in" data-aos-duration="2000">
-                        <span className="icon">
-                          <img src="/img/milk.png" alt="" />
-                        </span>
+                        <SubscribeIcon />
                       </div>
                       <h6 className="font-spirit">3. Subscribe</h6>
                       <div className="text text-left">
@@ -133,9 +117,7 @@ const Benefit = () => {
                   <div className="col-lg-4">
                     <div className="inner-box max-w-200 m-auto">
                       <div className="icon-box" data-aos="zoom-in" data-aos-duration="2000">
-                        <span className="icon">
-                          <img src="/img/bicycle.png" alt="" />
-                        </span>
+                        <DeliverIcon />
                       </div>
                       <h6 className="font-spirit">4. Delivery</h6>
                       <div className="text text-left">
@@ -146,9 +128,7 @@ const Benefit = () => {
                   <div className="col-lg-4">
                     <div className="inner-box max-w-200 m-auto">
                       <div className="icon-box" data-aos="zoom-in" data-aos-duration="2000">
-                        <span className="icon">
-                          <img src="/img/bank.png" alt="" />
-                        </span>
+                        <SaveIcon />
                       </div>
                       <h6 className="font-spirit">5. Savings</h6>
                       <div className="text text-left">
